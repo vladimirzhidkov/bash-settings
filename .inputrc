@@ -1,5 +1,7 @@
 set editing-mode vi
 set show-mode-in-prompt on
 set keymap vi-command
-g: beginning-of-history
-G: end-of-history
+    g: beginning-of-history
+    G: end-of-history
+set keymap vi-insert
+    #"\C-g": beginning-of-history
